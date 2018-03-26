@@ -1,32 +1,31 @@
-//  Jason carneys readme
-
-Summary
+## Summary
 ========
 - This readme details how to download and configure eduke32 along with the High Resolution Pack and some other cool HRP related files such as DukePlus.
 
+- The project contains custom Mapster32 maps in the `jasons-custom-maps` folder
 
-How to
+- At time of writing (26/03/18) i dont have a batch script to automate the downloading and configuration of the community DukePlus / HRP so this is manually done for now.
+ - This repository should be cloned first, then, carry out the below
+
+## How to
 =======
 
 ) Download Duke Plus from http://fissile.duke4.net/fissile_dukeplus.html
 
 - this contains a really good version of Eduke 32 that gives you loads of cool graphical and gameplay options!
-- Unzip it to C:\Users\jason\Documents\DukePlus
+- Unzip it to `C:\Users\jason\Documents\repository\DukePlus`
 
 
-) Download the HRP ( high res pack ) from http://hrp.duke4.net/download.php 
+) Download the HRP ( high res pack ) from http://hrp.duke4.net/download.php
 
 - Unzip it. Within this you should have the following zips but dont unzip them
 
 	- duke3d_hrp
 	- duke3d_music-sc55
 
-
 ) Download the xxx pack from http://hrp.duke4.net/download.php
 
-
-) Copy the duke3d.grp from Steam D:\SteamLibrary\steamapps\common\Duke Nukem 3D\gameroot\duke3d.grp and paste into C:\Users\jason\Documents\DukePlus ( overwriting any previous duke3d.grp ) 
-
+) Copy the duke3d.grp from Steam `D:\SteamLibrary\steamapps\common\Duke Nukem 3D\gameroot\duke3d.gr`p and paste into `C:\Users\jason\Documents\repository\DukePlus` ( overwriting any previous duke3d.grp )
 
 ) Copy the following zip files ( they need to be zipped! )
 
@@ -36,11 +35,10 @@ How to
 
 Then paste them into the DukePlus autoload folder.
 
-
 ) Click on eduke32.exe
 
 - the EDuke32 dialog opens
-	
+
 	- Select Fullscreen
 	- Polymer ( although i think you can not bother selecting here and select within the game pause screen )
 	- Under "Custom game content directory" Select DukePlus folder
@@ -50,14 +48,12 @@ Then paste them into the DukePlus autoload folder.
 
 ) You can confirm that you are running Duke Plus as "Duke plus" will be displayed on the main splash screen
 
-
-@TODO
+## TODO
 ======
 - Take a look at the EDuke32 Addon Compilation. Looks like it has loads of mods and Total Conversions.
 See Duke3D Bonus Files @ http://hrp.duke4.net/download.php
 
-
-Resources
+## Resources
 ==========
 
 Download most things: http://hrp.duke4.net/download.php
